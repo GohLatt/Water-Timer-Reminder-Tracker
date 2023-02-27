@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Water-Timer-Reminder-Tracker</title>
+
+    <!-- Custom Css Link -->
+    <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="nav-head">
+        <div class="logo-box">
+          <img src="./img/logo.png" alt="Logo" class="logo-img" />
+        </div>
+        <ul class="nav-link-box">
+          <li><a href="#how-it-work" class="nav-link">How it work</a></li>
+          <li><a href="#how-to-drink" class="nav-link">How to drink</a></li>
+          <li><a href="#testimonial" class="nav-link">Testimonial</a></li>
+        </ul>
+        <button class="btn btn-start-now"><a href="#cta">Start Now</a></button>
+      </nav>
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="container">
+            <div class="head-text-box">
+              <h1 class="heading-primary">
+                Drinking <span class="color-green"> Water</span> <br />
+                More Stay Healthy
+              </h1>
+
+              <p class="description">
+                We want to help you track and increase your daily water intake
+                by calculating <br />
+                how much water you need, tracking what you drink, and gently
+                reminding you <br />
+                when to drink. Let drink water remind you to drink water if you
+                always forget it.
+              </p>
+
+              <button class="btn btn-start mg-top">
+                <a href="#cta">Start Now</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="how-it-work" class="section how-it-work-section">
+        <h2 class="heading-secondary text-center mb-bot">How it Work</h2>
+        <div class="container grid grid--2--cols">
+          <div class="how-it-work-box">
+            <div class="icon-container">
+              <ion-icon
+                name="analytics-outline"
+                class="how-work-icon"
+              ></ion-icon>
+            </div>
+
+            <h3 class="heading-tertiary">Give me your informations</h3>
+
+            <p class="how-it-work-text">
+              You need to input your weight, life style, set time interval,
+              weakup time, sleep time and working hour correctly. And then you
+              also need to click submit button.
+            </p>
+          </div>
+          <div class="how-it-work-box">
+            <div class="icon-container">
+              <ion-icon name="mail-outline" class="how-work-icon"></ion-icon>
+            </div>
+
+            <h3 class="heading-tertiary">Message and Voice alarm</h3>
+
+            <p class="how-it-work-text">
+              We calculate drinking water amount depend on your informations. We
+              will give you text message and void message automatically when
+              it's time to drink water.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="how-to-drink" class="section how-to-drink">
+        <h2 class="heading-secondary text-center mb-bot">How To drink water</h2>
+        <div class="container grid grid--2--cols">
+          <div class="how-to-drink-box">
+            <h3 class="heading-tertiary">
+              <span class="color-op">01.</span> Sit down while drinking water
+            </h3>
+            <p class="how-drink-text">
+              Standing and drinking disrupts the balance of body fluids. You may
+              accumulate unwanted excess fluid in your body if you drink while
+              standing up which can often lead to arthritis.
+            </p>
+          </div>
+          <figure>
+            <img
+              src="./img/howtodrink4.jpg"
+              alt="pregnant women drink water photo"
+              class="how-drink-img"
+            />
+          </figure>
+          <!-- secondbox -->
+          <figure>
+            <img
+              src="./img/howtodrink3.jpg"
+              alt="pregnant women drink water photo"
+              class="how-drink-img"
+            />
+          </figure>
+          <div class="how-to-drink-box">
+            <h3 class="heading-tertiary">
+              <span class="color-op">02.</span> Drink slowly
+            </h3>
+            <p class="how-drink-text">
+              Drinking water in small sips allows the body to process the
+              nutrients and minerals well. It also makes it easier for our
+              kidneys to process all the fluids.
+            </p>
+          </div>
+          <div class="how-to-drink-box">
+            <h3 class="heading-tertiary">
+              <span class="color-op">03.</span> Start your day with a glass of
+              boiled water
+            </h3>
+            <p class="how-drink-text">
+              Drink warm water in the morning as it helps flush out the toxins
+              that have accumulated overnight and cleanses your digestive tract
+              to get you ready for the day! It also increases your metabolism
+            </p>
+          </div>
+          <figure>
+            <img
+              src="./img/howtodrink (2).jpg"
+              alt="pregnant women drink water photo"
+              class="how-drink-img"
+            />
+          </figure>
+        </div>
+      </section>
+      <section id="cta" class="section cta">
+        <h2 class="heading-secondary text-center mb-bot">
+          Fill your datas and start now
+        </h2>
+        <div class="container">
+          <div class="form-grid">
+            <form action="">
+              <div class="userInfo">
+                <div class="userName-box">
+                  <label for="#userName">Your Name</label>
+                  <input
+                    required
+                    id="userName"
+                    type="text"
+                    placeholder="Enter Your Name"
+                  />
+                </div>
+                <div class="sex-box">
+                  <label for="#sex">Sex</label>
+                  <select required id="sex">
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                  </select>
+                </div>
+                <div class="weight-box">
+                  <label for="#weight">Weight</label>
+                  <input
+                    required
+                    type="number"
+                    class="weight"
+                    placeholder="Enter your Weight"
+                  />
+                  <span class="attr">lbs</span>
+                </div>
+                <div class="condition-box">
+                  <label for="#state">Life Style</label>
+                  <select required id="state">
+                    <option value="">Chose your life style</option>
+                    <option value="Pregnant">Pregnant Woman</option>
+                    <option value="Aircon">Work under the Aircon</option>
+                    <option value="heat">Work with heat</option>
+                    <option value="Gym">Playing Gym</option>
+                    <option value="sun">Work under sun</option>
+                  </select>
+                </div>
+                <div>
+                  <label for="#workHour">Work hour/Play gym</label>
+                  <input
+                    required
+                    id="workHour"
+                    type="number"
+                    class="workHour"
+                    placeholder="Enter your work time"
+                  />
+                  <span class="attr">hour</span>
+                </div>
+                <div>
+                  <label for="#setHour">Set remind Interval</label>
+                  <input
+                    required
+                    id="setHour"
+                    type="number"
+                    class="setHour"
+                    placeholder="Enter interval Time "
+                  />
+                  <span class="attr">hour</span>
+                </div>
+                <div>
+                  <label for="#weakup">Weak up time</label>
+                  <input required id="weakup" type="time" />
+                </div>
+                <div>
+                  <label for="#sleep">Sleep time</label>
+                  <input required id="sleep" type="time" />
+                </div>
+              </div>
+              <div class="btn-container">
+                <button class="btn btn-submit">Start Now</button>
+              </div>
+            </form>
+            <img
+              src="./img/hero2.jpg"
+              alt="illustration photo"
+              class="cta-photo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h3 class="liter text-center heading-tertiary">
+          You Will need to drink 4 liters (4000ml) in a day
+        </h3>
+        <div class="section-data">
+          <div class="circle">
+            <div class="circle-flex">
+              <p class="circle-in-text">
+                <span class="drink-amount">00ml</span>/<span
+                  class="tatally-amount"
+                  >0000ml</span
+                >
+              </p>
+              <p class="cirecle-text">Daily Drink Target</p>
+            </div>
+          </div>
+          <div class="next-time">
+            <div class="next-time-box">
+              <div>
+                <ion-icon class="clock-icon" name="alarm-outline"></ion-icon>
+              </div>
+              <div class="time-box">
+                <p class="fast-time">00:00PM</p>
+                <p>Next time</p>
+              </div>
+              <p class="show-amount">000ml</p>
+            </div>
+          </div>
+          <!-- next-box -->
+          <div class="next-time">
+            <div class="next-time-box">
+              <div>
+                <ion-icon class="clock-icon" name="alarm-outline"></ion-icon>
+              </div>
+              <div>
+                <p class="countdown-time">00:00:00</p>
+              </div>
+              <p>left to drink</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="testimonial" class="testimonials-section">
+        <div class="container">
+          <h2 class="heading-secondary text-center">Our customer reviews</h2>
+          <div class="testimonial-container">
+            <div class="testimonial testimonial-one">
+              <img
+                class="customer-img"
+                src="./img/worker.jpg"
+                alt="customer img"
+              />
+              <blockquote class="customer-text-box">
+                <p class="customer-text">
+                  Got this app for two reasons: I had trouble remembering to
+                  drink water, and also remembering whether I had, and how much.
+                  This website helps with no annoying aggressive ads.
+                </p>
+                <div class="stars">
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                </div>
+                <p class="customer-name">Dyan Dinstel</p>
+                <p class="customer-job">Manager</p>
+              </blockquote>
+            </div>
+            <div class="testimonial testimonial-two">
+              <blockquote class="customer-text-box">
+                <p class="customer-text text-white">
+                  it's a very pleasant app to use. Interface is cute and simple,
+                  reminders work really well, so I'm happy with it.Thank you for
+                  Ukrainian localization, really appreciate it
+                </p>
+                <div class="stars">
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                  <ion-icon
+                    class="star-icon"
+                    name="star-half-outline"
+                  ></ion-icon>
+                </div>
+                <p class="customer-name text-white">Elisabeth Khokhlova</p>
+                <p class="customer-job text-white">Programmer</p>
+              </blockquote>
+              <img
+                class="customer-img"
+                src="./img/worker2.jpg"
+                alt="customer img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="alret-section">
+        <div class="alret-box">
+          <p>It's time to drink water</p>
+          <button class="btn btn-done">Done</button>
+        </div>
+        <audio src="./voice/voice.mp3" class="voice"></audio>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <p class="footer-text">
+          Copyright &copy; 2023 by Water-Timer-Reminder-Tracker, Inc. All rights
+          reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Icon Link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Polyfill Library -->
+    <script src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

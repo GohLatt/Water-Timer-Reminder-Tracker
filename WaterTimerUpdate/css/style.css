@@ -1,0 +1,305 @@
+/* main color #22c55e 
+   secondary color #1d4ed8
+*/
+
+/* **************************************************/
+/*Hero Section */
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  opacity: 0.95;
+}
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(134, 157, 198);
+
+  padding: 0 2.4rem;
+}
+
+.nav-link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  list-style: none;
+  gap: 4.8rem;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.825);
+  transition: all 0.4s;
+}
+.nav-link:hover,
+.nav-link:active {
+  color: #117937;
+}
+
+.hero-container {
+  background-image: linear-gradient(
+      rgba(115, 154, 237, 0.424),
+      rgba(14, 46, 133, 0.388)
+    ),
+    url("../img/hero.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+
+.head-text-box {
+  position: absolute;
+  top: 55%;
+  left: 20%;
+  transform: translate(-20%, -55%);
+}
+.description {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.825);
+  margin-top: 4.8rem;
+  line-height: 1.7;
+}
+.logo-img {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+/* *************************************************/
+/*How it Work */
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+}
+.how-work-icon {
+  padding: 1.2rem;
+  font-size: 3rem;
+  background-color: #a4e4b0;
+  color: #117937;
+  border-radius: 50%;
+}
+.how-it-work-text {
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  line-height: 2;
+}
+
+/* **************************************************/
+/* how to drink section */
+.how-to-drink {
+  background-color: #e7eefd;
+}
+figure {
+  display: flex;
+  justify-content: center;
+}
+.how-drink-img {
+  width: 80%;
+  border-radius: 11px;
+  height: 29.8rem;
+}
+.how-drink-text {
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
+  line-height: 2;
+}
+/* **************************************************/
+/* CTA */
+.userInfo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4.8rem;
+  column-gap: 3.2rem;
+}
+label {
+  display: block;
+}
+label,
+.attr {
+  margin-bottom: 1rem;
+  color: #555;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+input,
+select {
+  padding: 1.2rem;
+  border: none;
+  border-radius: 11px;
+  width: 70%;
+  background-color: rgba(200, 199, 199, 0.602);
+}
+#sleep,
+#weakup {
+  padding: 1rem;
+}
+
+.cta-photo {
+  height: 100%;
+}
+.btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2.4rem;
+}
+
+/* show DATA */
+.section-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+.circle {
+  width: 35rem;
+  height: 20rem;
+  /* box-shadow: 0 0 0 3px #1d4ed8; */
+  box-shadow: rgba(29, 79, 216, 0.492) 0px 3px 8px;
+
+  position: relative;
+}
+.circle-flex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.circle-in-text {
+  font-size: 2.4rem;
+  color: #000;
+  font-weight: 500;
+}
+.cirecle-text {
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+.drink-amount {
+  color: #1d4ed8;
+}
+.liter {
+  margin-bottom: 3.2rem;
+  display: none;
+}
+
+.next-time {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.next-time-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  padding: 1.4rem 2.4rem;
+  gap: 6.4rem;
+  color: #333;
+}
+.time-box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.clock-icon {
+  font-size: 2.6rem;
+  color: #1d4ed8;
+}
+/* **************************************************/
+/* testimonial */
+
+.testimonials-section {
+  padding: 9.6rem 0;
+}
+.testimonial-container {
+  margin-top: 9.6rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 11px;
+  overflow: hidden;
+}
+.testimonial {
+  display: grid;
+}
+.testimonial-one {
+  background-color: #ecf4ff;
+  grid-template-columns: 1fr 2fr;
+}
+.testimonial-two {
+  grid-template-columns: 2fr 1fr;
+  background-color: #05142e;
+}
+.customer-img {
+  width: 100%;
+  height: 100%;
+}
+.customer-text-box {
+  padding: 2.4rem;
+}
+.customer-text {
+  line-height: 1.7;
+  font-size: 1.8rem;
+}
+.stars {
+  margin-top: 1.6rem;
+}
+.star-icon {
+  color: #ffa600;
+}
+.customer-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1.2rem;
+}
+.customer-job {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.text-white {
+  color: rgba(255, 255, 255, 0.682);
+}
+/* **************************************************/
+/* section-alret */
+.alret-section {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  z-index: 2;
+}
+.alret-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 2rem;
+  background-color: #fff;
+}
+
+/*footer */
+footer {
+  padding-top: 8rem;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background: rgba(29, 79, 216, 0.721);
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 500;
+}

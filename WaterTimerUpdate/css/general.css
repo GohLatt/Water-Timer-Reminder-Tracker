@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  font-size: 2rem;
+  overflow-x: hidden;
+  line-height: 1.5;
+}
+
+/* **************************************************/
+/* Grid compoments */
+.grid {
+  display: grid;
+  column-gap: 8rem;
+  row-gap: 12.8rem;
+}
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.form-grid {
+  display: grid;
+  grid-template-columns: 70rem 1fr;
+  overflow: hidden;
+}
+.grid--4--col {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4.8rem;
+}
+/* **************************************************/
+/* gerneral components */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.heading-primary,
+.heading-secondary,
+.heading-tertiary {
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  border: none;
+}
+.heading-primary {
+  font-size: 6.2rem;
+  color: rgba(255, 255, 255, 0.915);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.heading-secondary {
+  font-size: 4.4rem;
+  color: #333;
+  text-transform: uppercase;
+  line-height: 1.3;
+}
+.heading-tertiary {
+  font-size: 3.6rem;
+  color: #333;
+  line-height: 1.4;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  outline: none;
+  border: none;
+  border-radius: 11px;
+  cursor: pointer;
+  display: block;
+  background-color: #22c55e;
+  color: rgba(255, 255, 255, 0.915);
+  transition: all 0.3s;
+}
+.btn:hover,
+.btn:active {
+  background-color: #117937;
+}
+.btn-start {
+  padding: 1.2rem 3.2rem;
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+.btn-start-now {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.btn-submit {
+  padding: 1.2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 40%;
+}
+.btn-done {
+  padding: 1.2rem 2.4rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+/* **************************************************/
+/* Other useful comoments */
+.section {
+  padding: 9.6rem 0;
+}
+.mg-top {
+  margin-top: 4.8rem;
+}
+.mb-bot {
+  margin-bottom: 9.6rem;
+}
+.color-green {
+  color: #7cd890;
+}
+.text-center {
+  text-align: center;
+}
+h2:after {
+  content: " ";
+  width: 12rem;
+  height: 4px;
+  background-color: #22c55e;
+  display: block;
+  margin: 0 auto;
+}
+.color-op {
+  opacity: 0.5;
+}
+
+/* **************************************************/
+/* show Data */
+
+/* **************************************************/
